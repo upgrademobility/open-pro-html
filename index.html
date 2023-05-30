@@ -6,7 +6,7 @@
     <title>KIT Graduate School UpGrade Mobility</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="./css/vendors/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/vendors/swiper-bundle.min.css" />
+    <link href="./css/vendors/swiper-bundle.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
 </head>
 
@@ -31,7 +31,7 @@
                     }))
                 })        
             </script>
-            <div class="max-w-6xl mx-auto px-5 sm:px-6">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
                 <div class="flex items-center justify-between h-16 md:h-20">
 
                     <!-- Site branding -->
@@ -80,7 +80,7 @@
                     </nav>
 
                     <!-- Mobile menu -->
-                    <div class="md:hidden" x-data="{ expanded: false }">
+                    <div class="flex md:hidden" x-data="{ expanded: false }">
 
                         <!-- Hamburger button -->
                         <button class="hamburger" :class="{ 'active': expanded }" @click.stop="expanded = !expanded"
@@ -365,7 +365,8 @@
                             <h2 class="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Our Topics</h2>
                             <p class="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200"
                                 data-aos-anchor="[data-aos-id-tabs]">UpGrade Mobility primarily addresses the research
-                                topics of the KIT Mobility Systems Center. Consider an application, if you are active and interested in any
+                                topics of the KIT Mobility Systems Center. Consider an application, if you are active
+                                and interested in any
                                 of those areas, including relating ones:</p>
                         </div>
 
@@ -997,10 +998,10 @@
                                 <!-- Logo -->
                                 <a class="inline-block" href="index.html" aria-label="Cruip">
                                     <svg class="w-8 h-8 fill-current text-white-950" viewBox="0 0 90 32"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M 1.01743,24.15591 C 0.36104,26.65028 0.03283,29.2759 0,31.96717 h 32.32816 z m 31.31073,7.81126 z m 0,0 z m 0,0 0.0328,-31.93433 h -0.26254 c -2.59283,0 -5.12001,0.32824 -7.54871,0.91899 z m 0,0 L 18.70768,2.9867 C 16.27895,4.10256 14.04717,5.48107 12.01231,7.12209 Z M 7.3518,11.71693 C 5.67794,13.75182 4.23386,15.98362 3.11793,18.3795 l 29.21023,13.58767 z m 24.97636,20.25024 z m 0,0 z M 89.20605,0.03284 H 68.1025 v 7.18771 h 6.17026 V 32 h 8.76306 V 7.22055 h 6.17023 z M 66.00198,31.96717 H 57.2389 V 0.03284 h 8.76308 z m -10.24,0 H 46.01431 L 34.42869,19.52823 V 12.40617 L 45.65328,0 H 55.69636 L 42.76509,16.08208 Z" />
-                            </svg>
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M 1.01743,24.15591 C 0.36104,26.65028 0.03283,29.2759 0,31.96717 h 32.32816 z m 31.31073,7.81126 z m 0,0 z m 0,0 0.0328,-31.93433 h -0.26254 c -2.59283,0 -5.12001,0.32824 -7.54871,0.91899 z m 0,0 L 18.70768,2.9867 C 16.27895,4.10256 14.04717,5.48107 12.01231,7.12209 Z M 7.3518,11.71693 C 5.67794,13.75182 4.23386,15.98362 3.11793,18.3795 l 29.21023,13.58767 z m 24.97636,20.25024 z m 0,0 z M 89.20605,0.03284 H 68.1025 v 7.18771 h 6.17026 V 32 h 8.76306 V 7.22055 h 6.17023 z M 66.00198,31.96717 H 57.2389 V 0.03284 h 8.76308 z m -10.24,0 H 46.01431 L 34.42869,19.52823 V 12.40617 L 45.65328,0 H 55.69636 L 42.76509,16.08208 Z" />
+                                    </svg>
                                 </a>
                             </div>
                             <div class="text-gray-400">Funded by the Federal Ministry of Education and Research (BMBF)
@@ -1017,19 +1018,23 @@
                                 <ul>
                                     <li class="mb-1">
                                         <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                                            href="https://www.kit.edu/english/" target="_blank" rel="noopener noreferrer">Home</a>
+                                            href="https://www.kit.edu/english/" target="_blank"
+                                            rel="noopener noreferrer">Home</a>
                                     </li>
                                     <li class="mb-1">
                                         <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                                            href="https://www.mobilitaetssysteme.kit.edu/legals.php" target="_blank" rel="noopener noreferrer">Legals</a>
+                                            href="https://www.mobilitaetssysteme.kit.edu/legals.php" target="_blank"
+                                            rel="noopener noreferrer">Legals</a>
                                     </li>
                                     <li class="mb-1">
                                         <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                                            href="https://www.mobilitaetssysteme.kit.edu/datenschutz.php" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                            href="https://www.mobilitaetssysteme.kit.edu/datenschutz.php"
+                                            target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                     </li>
                                     <li class="mb-1">
                                         <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                                            href="https://www.kit.edu/accessibility.php" target="_blank" rel="noopener noreferrer">Accessibility</a>
+                                            href="https://www.kit.edu/accessibility.php" target="_blank"
+                                            rel="noopener noreferrer">Accessibility</a>
                                     </li>
                                 </ul>
                             </div>

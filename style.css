@@ -1979,6 +1979,14 @@ input[type=range]::-moz-focus-outer {
   overflow: hidden;
 }
 
+.overflow-scroll{
+  overflow: scroll;
+}
+
+.overflow-x-auto{
+  overflow-x: auto;
+}
+
 .rounded{
   border-radius: 0.25rem;
 }
@@ -2924,6 +2932,12 @@ input[type=range]::-moz-focus-outer {
 
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
+}
+
+@supports (overflow:clip){
+  .supports-\[overflow\:clip\]\:overflow-clip{
+    overflow: clip;
+  }
 }
 
 @media (min-width: 640px){
