@@ -590,6 +590,10 @@ select{
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -2522,6 +2526,11 @@ input[type=range]::-moz-focus-outer {
 .text-kitcyan-400{
   --tw-text-opacity: 1;
   color: rgb(167 217 243 / var(--tw-text-opacity));
+}
+
+.text-kitcyan-500{
+  --tw-text-opacity: 1;
+  color: rgb(145 208 239 / var(--tw-text-opacity));
 }
 
 .text-kitgreen-100{
