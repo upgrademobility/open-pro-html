@@ -6,6 +6,11 @@ This HTML template is shipped with the (Tailwind CLI tool)[https://tailwindcss.c
 
 * [Getting started](#getting-started)
 
+## Details
+
+SVG Icons: https://icons.getbootstrap.com/
+KIT Colors: https://raw.githubusercontent.com/camminady/kitcolors/master/example.png
+
 ## Getting started
 
 * First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
