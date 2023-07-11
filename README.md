@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/upgrademobility/open-pro-html/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/upgrademobility/open-pro-html/actions/workflows/pages/pages-build-deployment)
+
 # Open PRO HTML
 
 HTML landing page template designed by Cruip.
